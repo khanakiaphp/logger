@@ -1,0 +1,43 @@
+# ignore all files starting with . or ~
+##.*
+~*
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+bower_components/
+compiled/
+vendor/
+
+# ignore OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+*.idea
+*.TMP
+*.tmp
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore server created files
+error_log
+/tmp/
+/logs/
+/log/
+/cli/
+/cgi-bin/
