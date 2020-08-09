@@ -15,7 +15,7 @@ include( __DIR__ . '/logger/index.php' );
 $logger = new \LoggerPhp();
 $logger->start();
 ```
-Params if `$saveHtml=true` then it will save the HTML output of the webiste. Right saving html output is supported only for WordPress website.
+Params if `$saveHtml=true` then it will save the HTML output of the website. Right saving html output is supported only for WordPress website.
 
 **NOTE:** if you are using WordPress then place the code at the very bottom of `wp-config.php` file.
 
