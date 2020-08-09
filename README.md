@@ -9,13 +9,15 @@ Simply Install the plugin and change the Plugin settings according to your needs
 The script logs al the request under `tmp` directory.
 
 ## How to Use
+Download the zip file from the url https://github.com/khanakiaphp/logger/releases/download/0.0.1/logger.zip and unzip it to the root directory
 ```
-include( __DIR__ . '/../logger/index.php' );
+include( __DIR__ . '/logger/index.php' );
 $logger = new \LoggerPhp();
 $logger->start();
 ```
-
 Params if `$saveHtml=true` then it will save the HTML output of the webiste. Right saving html output is supported only for WordPress website.
+
+**NOTE:** if you are using WordPress then place the code at the very bottom of `wp-config.php` file.
 
 ## Fix Japense hack
 Have you every wondered when somebody googles your site and you started seeing japense meta keywords and tilte. But now you do not know how to track the request and trace at what point exactly our HTML output is modified by the hacked.
