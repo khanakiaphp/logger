@@ -1,6 +1,6 @@
 ## PHP Logger to log every single request which helps you to tighten security by analyzing the requests made to your website.
 
-This script was developed out of pain as there is no such script yet available for logging all the request because of that reason this script came to life so we can trace mailicious request, code injections, spamemrs ip and the request url and data they are submitting, thus we can prevent and fix the issue.
+This script was developed out of pain as there is no such script yet available for logging all the request because of that reason this script came to life so we can trace mailicious request, code injections, spammers ip and the request url and data they are submitting, thus we can prevent and fix the issue.
 
 
 ### How it works?
