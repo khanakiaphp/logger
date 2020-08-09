@@ -22,7 +22,7 @@ Params if `$saveHtml=true` then it will save the HTML output of the website. Rig
 ## Fix Japense hack
 Have you every wondered when somebody googles your site and you started seeing japense meta keywords and tilte. But now you do not know how to track the request and trace at what point exactly our HTML output is modified by the hacker.
 
-That's why `saveHtml` came to rescue it will save all the request html in html files and will map the Request ID with $id.html files so you can know against which request that html files was hacked. and it will be easy to trace the hackers.
+That's why `saveHtml` came to rescue it will save all the request html in html files and will map the Request ID with $id.html files so you can know against which request that html output of website modified and it will be easy to trace the what request causing the code injection.
 
 ## Contribute
 
